@@ -1,0 +1,51 @@
+.flexbox-container {
+  
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 100vh;
+  width: 100vw;
+  grid-template-rows: repeat(8, 1fr);
+  grid-auto-flow: column;
+
+}
+
+.flexbox-item {
+
+
+}
+
+.flexbox-item-1 {
+  
+  background-color:aqua;
+  grid-row: 1 / -1;
+  grid-column: span 1;
+
+
+}
+
+.flexbox-item-2 {
+  
+  background-color: blue;
+  grid-row: span 3;
+  grid-column: span 2;
+
+
+}
+
+.flexbox-item-3 {
+  
+  background-color: blueviolet;
+  grid-row: span 2;
+  grid-column: span 2;
+
+
+}
+
+.flexbox-item-4 {
+  
+  background-color: green;
+  grid-row: span 3;
+  grid-column: span 2;
+
+
+}
