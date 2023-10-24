@@ -6,31 +6,33 @@
   width: 100vw;
   grid-template-rows: repeat(8, 1fr);
   grid-auto-flow: column;
-  justify-content: center;
-  align-items: center;
+
+
 
 }
 
-.flexbox-item {
+.flexbox-item-pre {
 
-
+  grid-column: 1;
 
 }
 
 .flexbox-item-1 {
   
+  position: relative;
   background-color:aqua;
   grid-row: 1 / -1;
   grid-column: span 2;
+  text-align: center;
 
 }
 
 .flexbox-item-2 {
   
-  background-color: blue;
+  position: relative;
+  background-color: lightgrey;
   grid-row: span 3;
   grid-column: span 2;
-
 
 }
 
@@ -58,3 +60,22 @@ img {
   width: 100%;
 
 }
+
+.caption {
+
+  position: absolute;
+  bottom: 18px;
+  right: 40%;
+  color: white;
+
+}
+
+.not_real {
+
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  right: 20%;
+
+}
+
