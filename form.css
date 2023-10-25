@@ -24,13 +24,14 @@
   grid-row: 1 / -1;
   grid-column: span 2;
   text-align: center;
+  z-index: 2;
 
 }
 
 .flexbox-item-2 {
   
   position: relative;
-  background-color: lightgrey;
+  background-color: #F5F5F5;
   grid-row: span 3;
   grid-column: span 2;
 
@@ -38,7 +39,7 @@
 
 .flexbox-item-3 {
   
-  background-color: blueviolet;
+  background-color: white;
   grid-row: span 2;
   grid-column: span 2;
 
@@ -47,7 +48,7 @@
 
 .flexbox-item-4 {
   
-  background-color: green;
+  background-color: #F5F5F5;
   grid-row: span 3;
   grid-column: span 2;
 
@@ -73,9 +74,34 @@ img {
 .not_real {
 
   position: absolute;
-  top: 80%;
+  top: 55%;
   left: 5%;
   right: 20%;
 
 }
 
+.odin_logo {
+
+  position: absolute;
+  grid-row: span 1;
+  grid-column: 2;
+  background: rgba(0, 0, 0, 0.5);
+  top: 17.5%;
+  z-index: 3;
+  width: 100%;
+  height: 20%;
+
+}
+
+.odin_logo img {
+
+  object-fit: contain;
+
+}
+
+.not_real p {
+
+  font-weight: bold;
+  font-size: 29px;
+
+}
