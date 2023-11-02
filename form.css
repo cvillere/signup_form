@@ -7,8 +7,6 @@
   grid-template-rows: repeat(8, 1fr);
   grid-auto-flow: column;
 
-
-
 }
 
 .flexbox-item-pre {
@@ -39,10 +37,10 @@
 
 .flexbox-item-3 {
   
+  position: relative;
   background-color: white;
   grid-row: span 2;
   grid-column: span 2;
-
 
 }
 
@@ -51,7 +49,6 @@
   background-color: #F5F5F5;
   grid-row: span 3;
   grid-column: span 2;
-
 
 }
 
@@ -103,5 +100,68 @@ img {
 
   font-weight: bold;
   font-size: 29px;
+
+}
+
+.affirm {
+
+  position: absolute;
+  left: 5%;
+  font-weight: bold;
+  font-size: 29px;
+
+}
+
+form {
+
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  left: 5%;
+  top: 5%;
+  row-gap: 20px;
+
+}
+
+input {
+
+  border-radius: 6px;
+  width: 130%;
+  height: 65%;
+
+}
+
+.row {
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 150px;
+  width: 100%;
+  /*height: 35%;*/
+
+}
+
+
+.f_name, .l_name, .my_email, .my_number {
+
+  height: 100%;
+
+
+}
+
+.my_password, .myc_password {
+
+  height: 100%;
+
+}
+
+
+label {
+
+  display: block;
+  text-align: left; 
 
 }
