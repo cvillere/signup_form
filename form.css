@@ -79,7 +79,11 @@ img {
 
 .odin_logo {
 
+  display: flex;
+  flex-direction: row;
   position: absolute;
+  justify-content: center;
+  align-items: flex-end;
   grid-row: span 1;
   grid-column: 2;
   background: rgba(0, 0, 0, 0.5);
@@ -90,9 +94,40 @@ img {
 
 }
 
-.odin_logo img {
+.odin {
+
+  position: relative;
+  grid-row: span 1;
+  grid-column: 2;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+
+}
+
+.odin_word {
+
+  position: relative;
+  color: white;
+  font-size: 20px;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+
+}
+
+.odin img {
 
   object-fit: contain;
+  height: 100%;
+
+}
+
+.odin_logo p {
+
+  position: relative;
+  height: 100%;
+  width: 100%;
 
 }
 
@@ -140,7 +175,6 @@ input {
   flex-wrap: wrap;
   column-gap: 150px;
   width: 100%;
-  /*height: 35%;*/
 
 }
 
@@ -157,7 +191,6 @@ input {
   height: 100%;
 
 }
-
 
 label {
 
