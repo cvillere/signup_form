@@ -96,6 +96,9 @@ img {
 
 .odin {
 
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
   position: relative;
   grid-row: span 1;
   grid-column: 2;
@@ -107,6 +110,8 @@ img {
 
 .odin_word {
 
+  display: flex;
+  justify-content: flex-start;
   position: relative;
   color: white;
   font-size: 20px;
@@ -120,6 +125,7 @@ img {
 
   object-fit: contain;
   height: 100%;
+
 
 }
 
