@@ -181,6 +181,13 @@ input {
 
 }
 
+input:focus {
+
+  border: blue;
+  box-shadow: lightblue 
+
+}
+
 .row {
 
   display: flex;

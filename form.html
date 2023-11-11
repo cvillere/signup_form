@@ -60,11 +60,11 @@
           <div class="row">
               <div class="my_password">
                 <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
               </div>
               <div class="myc_password">
                 <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm_password" name="confirm_password">
+                <input type="password" required id="confirm_password" name="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
               </div>
           </div>
       
@@ -74,7 +74,7 @@
     <div class="flexbox-item flexbox-item-4">
       <div class="last_box">
       <div class="button">
-        <button class="create" type="button">Create Account</button>
+        <button class="create">Create Account</button>
       </div>
       <div class="log_in">
         <p>Already have an account? Log in</p>
